@@ -1,0 +1,23 @@
+* 盟大开发手册
+    * [前言](rules/preface.md)
+    * 一、编码规范
+        * [命名规范](rules/name.md)
+        * [常量和数组](rules/const.md)
+        * [代码格式](rules/format.md)
+        * [控制语句](rules/control.md)
+        * [OOP规范](rules/oop.md)
+        * [注释规约](rules/comment.md)
+        * [其他](rules/others.md)
+    * 二、异常日志
+        * [异常处理](rules/exception.md)
+        * [日志规约](rules/log.md)
+    * 三、Mysql
+        * [建表规约](rules/table.md)
+        * [索引规约](rules/mysql-index.md)
+        * [SQL语句](rules/sql.md)
+        * [ORM规约](rules/orm.md)
+    * 四、工程结构
+        * [应用分层](rules/layer.md)
+        * [服务器](rules/server.md)
+        * [git提交规范](rules/git-commit.md)
+    * [五、安全规范](rules/security.md)
