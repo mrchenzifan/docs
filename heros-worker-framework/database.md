@@ -40,6 +40,8 @@ class DemoUser extends HeroModel
 
 主要是在 `config/database.php` 中配置
 
+每个连接增加一个配置项，用于配置数据库的是否心跳 `is_beat` = true。 默认是关闭的！！！
+
 ## 实体模型
 
 需要继承框架`HeroModel`类（`use framework\database\HeroModel`), 接下来就可以对模型进行操作, eg:
