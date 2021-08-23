@@ -1,5 +1,8 @@
 # 版本历史记录
 
+##[v1.0.11](https://github.com/mondagPHP/heros-worker/releases/tag/v1.0.11) - 2021/08/23
+- [12241fd](https://github.com/mondagPHP/heros-worker/commit/12241fd817107b9931c3161e449aa092801b665b)修复Session设置时间，关闭浏览器不生效。
+
 ## [v1.0.10](https://github.com/mondagPHP/heros-worker/releases/tag/v1.0.10) - 2021/08/09
 - [c280979](https://github.com/mondagPHP/heros-worker/commit/c280979e057eb8535bf4dc679fefc6883ee1d19b)数据库的心跳默认是关闭，只有database.php 设置了 is_beat = `true` 才会打开。这个开发者必须要谨慎，如果打开请考虑数据库连接数，应用的连接数 = 进程数 * 配置文件数据库连接数 + 定时任务数 * 配置文件数据库连接数
 
