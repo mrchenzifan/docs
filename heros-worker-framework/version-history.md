@@ -1,6 +1,6 @@
 # 版本历史记录
 
-## v1.0.11](https://github.com/mondagPHP/heros-worker/releases/tag/v1.0.11) - 2021/08/23
+## [v1.0.11](https://github.com/mondagPHP/heros-worker/releases/tag/v1.0.11) - 2021/08/23
 - [12241fd](https://github.com/mondagPHP/heros-worker/commit/12241fd817107b9931c3161e449aa092801b665b)修复Session设置时间，关闭浏览器不生效。
 
 ## [v1.0.10](https://github.com/mondagPHP/heros-worker/releases/tag/v1.0.10) - 2021/08/09
