@@ -32,7 +32,7 @@
 
 9. **【强制】** 表必备三字段:`id`, `addtime`, `updatetime`
 
-**<font color='#937c27'>说明：</font>** 其中`id`必为主键，类型为`char(12)`，`addtime`, `updatetime` 的类型均为 `datetime` 类型，不要只用整形去存储时间戳。
+**<font color='#937c27'>说明：</font>** 其中`id`必为主键，类型为`char(18)`，`addtime`, `updatetime` 的类型均为 `datetime` 类型，不要只用整形去存储时间戳。
 
 10. **【推荐】** 表的命名最好是加上“业务名称_表的作用”。
 
