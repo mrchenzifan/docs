@@ -25,7 +25,7 @@
 
 ### Dockerfile
 
- 如果觉得window下开发配置环境复杂，可以使用如下Dockerfile。
+ 如果觉得window下开发配置环境复杂，可以使用docker安装。
  
 ```shell
 docker run -p 8080:8080 -v ${PWD}/:/var -it  church1117/heros-framework /bin/sh
