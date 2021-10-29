@@ -10,7 +10,7 @@
 
 ```env
 #server
-server_listen=http://127.0.0.1:8080
+server_listen=http://0.0.0.0:8080
 server_process_count=1
 server_max_request=10000
 ```
@@ -73,7 +73,7 @@ class DemoController extends AbstractController
 
 > 在 `@RequestMapping` 注解中必须定义`value` 值， 而且需要是唯一。
 
-访问 ： 直接就是定义的 `value` 的值， http://127.0.0.1:8081/demo/demo/test
+访问 ： 直接就是定义的 `value` 的值， http://127.0.0.1:8080/demo/demo/test
 
 ## 处理http请求
 
@@ -118,7 +118,7 @@ class DemoController extends AbstractController
 
 先重启服务 `php bin/start restart` 让代码生效
 
-测试： http://127.0.0.1:8081/demo/demo/test?name=tom
+测试： http://127.0.0.1:8080/demo/demo/test?name=tom
 
 浏览器会输出： `{"code":"000","success":true,"message":"操作成功","data":{"name":"tom"}}`
 

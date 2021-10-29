@@ -12,7 +12,7 @@
 - 启动容器 `sudo docker run --name=heros-worker-demo --network=host -d heros-worker-demo:v1`
 
 > 在启动时候， 确保数据库配置（config/database.php）和redis（config/redis.php）配置是正确的，可连接的 \
-> 可直接 http:127.0.0.1:8080/直接访问， 也可以 配置nginx 反向代理
+> 可直接 http://127.0.0.1:8080/直接访问， 也可以 配置nginx 反向代理
 
 ## nginx 反向代理
 
