@@ -41,3 +41,4 @@
     * [帮助函数](heros-worker-framework/utils-help-functions.md)
     * [Result类](heros-worker-framework/utils-result.md)
     * [vo类](heros-worker-framework/utils-vo.md)
+    * [其它](heros-worker-framework/other.md)
